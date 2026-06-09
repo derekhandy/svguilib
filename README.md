@@ -1,7 +1,7 @@
 # svguilib
 
 
-<b> svguilib </b> is a cross-platform Go library for quickly composing small Fyne desktop GUIs from declarative buttons, labels, input fields, bound data, and layout options. Available for Linux, Windows and MacOS architectures.
+<b> svguilib </b> is a Go library for quickly composing small Fyne desktop GUIs from declarative buttons, labels, input fields, bound data, and layout options. Cross-platform support.
 
 Requires <b> Go 1.26 </b> or newer and <b> Fyne.io </b> desktop build requirements.
 
