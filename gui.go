@@ -1,5 +1,5 @@
 //
-//												svguilib @ v1.1.3
+//												svguilib @ v1.1.4
 //
 //									MIT License, Copyright (c) 2026 Derek Handy
 //							Project can be found at: https://github.com/derekhandy/svguilib
