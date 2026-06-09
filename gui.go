@@ -1,3 +1,10 @@
+//
+//												svguilib @ v1.1.2
+//
+//									MIT License, Copyright (c) 2026 Derek Handy
+//							Project can be found at: https://github.com/derekhandy/svguilib
+//
+
 package svguilib
 
 import (
@@ -263,10 +270,18 @@ func (gui *GUI) BuildOrderedLayout(
 }
 
 func (gui *GUI) GetBoundData(index int) string {
+	if index < 0 || index >= len(gui.Data.BoundData) {
+		return ""
+	}
+
 	boundData, _ := gui.Data.BoundData[index].Data.Get()
 	return boundData
 }
 
 func (gui *GUI) SetBoundData(index int, value string) {
+	if index < 0 || index >= len(gui.Data.BoundData) {
+		return
+	}
+
 	gui.Data.BoundData[index].Data.Set(value)
 }
