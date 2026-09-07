@@ -185,7 +185,3 @@ If `Options.Order` is empty, the default order is:
 ```
 
 `GetBoundData` returns an empty string when the index does not exist. `SetBoundData` ignores out-of-range indexes.
-
-## NOTICE
-
-<b> svguilib is a lightweight wrapper around Fyne widgets and layout containers. Calling applications are responsible for validating user input, handling long-running work off the UI path, and packaging native GUI builds for each supported operating system.</b>
